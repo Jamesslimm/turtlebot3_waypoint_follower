@@ -1,0 +1,23 @@
+[0.884s] Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/james/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[1.079s] running develop
+[1.079s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.079s]   warnings.warn(
+[1.123s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.124s]   warnings.warn(
+[1.124s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 11.4.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.124s]   warnings.warn(
+[1.202s] running egg_info
+[1.203s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.207s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.207s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.207s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.208s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.208s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.208s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.211s] running build_ext
+[1.211s] Creating /home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.211s] Installing teleop_keyboard script to /home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.211s] 
+[1.211s] Installed /home/james/turtlebot3_ws/build/turtlebot3_teleop
+[1.211s] running symlink_data
+[1.242s] Invoked command in '/home/james/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

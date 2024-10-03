@@ -1,0 +1,86 @@
+[0.012s] Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/james/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/turtlebot3_ws/install/turtlebot3_node
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.434s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.456s] -- Found dynamixel_sdk: 3.7.60 (/home/james/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.458s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.489s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.573s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.575s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.666s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.695s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.702s] -- Looking for pthread.h
+[0.760s] -- Looking for pthread.h - found
+[0.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.821s] -- Found Threads: TRUE  
+[0.853s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.869s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.882s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.892s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.900s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.967s] -- Found turtlebot3_msgs: 2.2.3 (/home/james/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.033s] -- Configuring done
+[1.046s] -- Generating done
+[1.047s] -- Build files have been written to: /home/james/turtlebot3_ws/build/turtlebot3_node
+[1.054s] Invoked command in '/home/james/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/james/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/turtlebot3_ws/install/turtlebot3_node
+[1.055s] Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/james/turtlebot3_ws/build/turtlebot3_node -- -j20 -l20
+[1.094s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.095s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.095s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.095s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.096s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.096s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.097s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.098s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.098s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.098s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[11.719s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[12.042s] [ 85%] Built target turtlebot3_node_lib
+[12.066s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[14.056s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[15.073s] [100%] Built target turtlebot3_ros
+[15.088s] Invoked command in '/home/james/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/james/turtlebot3_ws/build/turtlebot3_node -- -j20 -l20
+[15.150s] Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/james/turtlebot3_ws/build/turtlebot3_node
+[15.157s] -- Install configuration: ""
+[15.157s] -- Execute custom install script
+[15.157s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[15.167s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[15.178s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[15.188s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[15.200s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[15.209s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[15.221s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[15.230s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[15.241s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[15.246s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[15.253s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[15.263s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[15.274s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[15.283s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[15.294s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[15.304s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[15.314s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.326s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[15.335s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[15.346s] -- Symlinking: /home/james/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[15.359s] Invoked command in '/home/james/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/james/turtlebot3_ws/build/turtlebot3_node

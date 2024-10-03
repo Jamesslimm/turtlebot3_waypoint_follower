@@ -1,0 +1,31 @@
+running develop
+Removing /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+running egg_info
+writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt
+writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt
+writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt
+writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt
+reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/james/turtlebot3_ws/build/follow_waypoints/build
+creating /home/james/turtlebot3_ws/build/follow_waypoints/build/lib
+creating /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints
+copying follow_waypoints/__init__.py -> /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints
+copying follow_waypoints/follow_waypoints.py -> /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints
+running install
+running install_lib
+creating /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+copying /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints/__init__.py -> /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+copying /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints/follow_waypoints.py -> /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+byte-compiling /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+running install_data
+copying resource/follow_waypoints -> /home/james/turtlebot3_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+copying package.xml -> /home/james/turtlebot3_ws/install/follow_waypoints/share/follow_waypoints
+running install_egg_info
+Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/james/turtlebot3_ws/build/follow_waypoints/install.log'

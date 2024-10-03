@@ -1,0 +1,23 @@
+[0.957s] Invoking command in '/home/james/turtlebot3_ws/build/follow_waypoints': PYTHONPATH=/home/james/turtlebot3_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/follow_waypoints/build --no-deps symlink_data
+[1.148s] running develop
+[1.148s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.149s]   warnings.warn(
+[1.190s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.190s]   warnings.warn(
+[1.191s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 11.4.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.191s]   warnings.warn(
+[1.279s] running egg_info
+[1.280s] writing follow_waypoints.egg-info/PKG-INFO
+[1.280s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[1.280s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[1.280s] writing requirements to follow_waypoints.egg-info/requires.txt
+[1.280s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[1.281s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.282s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.283s] running build_ext
+[1.283s] Creating /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.284s] Installing follow_waypoints_exe script to /home/james/turtlebot3_ws/install/follow_waypoints/lib/follow_waypoints
+[1.284s] 
+[1.284s] Installed /home/james/turtlebot3_ws/build/follow_waypoints
+[1.284s] running symlink_data
+[1.309s] Invoked command in '/home/james/turtlebot3_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/follow_waypoints/build --no-deps symlink_data

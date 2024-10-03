@@ -1,0 +1,41 @@
+[0.970s] Invoking command in '/home/james/turtlebot3_ws/build/custom_launch': PYTHONPATH=/home/james/turtlebot3_ws/build/custom_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/james/turtlebot3_ws/build/custom_launch/build
+[1.175s] running develop
+[1.175s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.175s]   warnings.warn(
+[1.226s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.226s]   warnings.warn(
+[1.227s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 11.4.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.227s]   warnings.warn(
+[1.308s] Removing /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom-launch.egg-link (link to .)
+[1.330s] Invoked command in '/home/james/turtlebot3_ws/build/custom_launch' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/custom_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/james/turtlebot3_ws/build/custom_launch/build
+[1.332s] Invoking command in '/home/james/turtlebot3_ws/src/custom_launch': PYTHONPATH=/home/james/turtlebot3_ws/build/custom_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom_launch build --build-base /home/james/turtlebot3_ws/build/custom_launch/build install --record /home/james/turtlebot3_ws/build/custom_launch/install.log --single-version-externally-managed install_data --force
+[1.518s] running egg_info
+[1.518s] writing ../../build/custom_launch/custom_launch.egg-info/PKG-INFO
+[1.519s] writing dependency_links to ../../build/custom_launch/custom_launch.egg-info/dependency_links.txt
+[1.519s] writing entry points to ../../build/custom_launch/custom_launch.egg-info/entry_points.txt
+[1.519s] writing requirements to ../../build/custom_launch/custom_launch.egg-info/requires.txt
+[1.519s] writing top-level names to ../../build/custom_launch/custom_launch.egg-info/top_level.txt
+[1.520s] reading manifest file '../../build/custom_launch/custom_launch.egg-info/SOURCES.txt'
+[1.521s] writing manifest file '../../build/custom_launch/custom_launch.egg-info/SOURCES.txt'
+[1.521s] running build
+[1.521s] running build_py
+[1.521s] creating /home/james/turtlebot3_ws/build/custom_launch/build
+[1.521s] creating /home/james/turtlebot3_ws/build/custom_launch/build/lib
+[1.521s] creating /home/james/turtlebot3_ws/build/custom_launch/build/lib/custom_launch
+[1.521s] copying custom_launch/start_navigation_and_waypoints.launch.py -> /home/james/turtlebot3_ws/build/custom_launch/build/lib/custom_launch
+[1.522s] copying custom_launch/__init__.py -> /home/james/turtlebot3_ws/build/custom_launch/build/lib/custom_launch
+[1.522s] running install
+[1.522s] running install_lib
+[1.522s] creating /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom_launch
+[1.522s] copying /home/james/turtlebot3_ws/build/custom_launch/build/lib/custom_launch/start_navigation_and_waypoints.launch.py -> /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom_launch
+[1.522s] copying /home/james/turtlebot3_ws/build/custom_launch/build/lib/custom_launch/__init__.py -> /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom_launch
+[1.522s] byte-compiling /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom_launch/start_navigation_and_waypoints.launch.py to start_navigation_and_waypoints.launch.cpython-310.pyc
+[1.523s] byte-compiling /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom_launch/__init__.py to __init__.cpython-310.pyc
+[1.523s] running install_data
+[1.523s] copying resource/custom_launch -> /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index/packages
+[1.523s] copying package.xml -> /home/james/turtlebot3_ws/install/custom_launch/share/custom_launch
+[1.523s] running install_egg_info
+[1.524s] Copying ../../build/custom_launch/custom_launch.egg-info to /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom_launch-0.0.0-py3.10.egg-info
+[1.525s] running install_scripts
+[1.541s] writing list of installed files to '/home/james/turtlebot3_ws/build/custom_launch/install.log'
+[1.561s] Invoked command in '/home/james/turtlebot3_ws/src/custom_launch' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/custom_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom_launch build --build-base /home/james/turtlebot3_ws/build/custom_launch/build install --record /home/james/turtlebot3_ws/build/custom_launch/install.log --single-version-externally-managed install_data --force

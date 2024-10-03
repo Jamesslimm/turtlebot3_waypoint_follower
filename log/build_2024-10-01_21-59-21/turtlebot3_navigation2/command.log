@@ -1,0 +1,1 @@
+Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/turtlebot3_ws/build/turtlebot3_navigation2 -- -j20 -l20

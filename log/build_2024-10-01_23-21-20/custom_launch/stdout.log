@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating custom_launch.egg-info
+writing custom_launch.egg-info/PKG-INFO
+writing dependency_links to custom_launch.egg-info/dependency_links.txt
+writing entry points to custom_launch.egg-info/entry_points.txt
+writing requirements to custom_launch.egg-info/requires.txt
+writing top-level names to custom_launch.egg-info/top_level.txt
+writing manifest file 'custom_launch.egg-info/SOURCES.txt'
+reading manifest file 'custom_launch.egg-info/SOURCES.txt'
+writing manifest file 'custom_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom-launch.egg-link (link to .)
+
+Installed /home/james/turtlebot3_ws/build/custom_launch
+running symlink_data
+creating /home/james/turtlebot3_ws/install/custom_launch/share/ament_index
+creating /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index
+creating /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index/packages
+symbolically linking /home/james/turtlebot3_ws/build/custom_launch/resource/custom_launch -> /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index/packages
+symbolically linking /home/james/turtlebot3_ws/build/custom_launch/package.xml -> /home/james/turtlebot3_ws/install/custom_launch/share/custom_launch

@@ -1,0 +1,41 @@
+[1.026s] Invoking command in '/home/james/turtlebot3_ws/build/follow_waypoints': PYTHONPATH=/home/james/turtlebot3_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/james/turtlebot3_ws/build/follow_waypoints/build
+[1.277s] running develop
+[1.278s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.278s]   warnings.warn(
+[1.336s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.336s]   warnings.warn(
+[1.337s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 11.4.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.337s]   warnings.warn(
+[1.452s] Removing /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.481s] Invoked command in '/home/james/turtlebot3_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/james/turtlebot3_ws/build/follow_waypoints/build
+[1.484s] Invoking command in '/home/james/turtlebot3_ws/src/follow_waypoints': PYTHONPATH=/home/james/turtlebot3_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/james/turtlebot3_ws/build/follow_waypoints/build install --record /home/james/turtlebot3_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data --force
+[1.887s] running egg_info
+[1.888s] writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO
+[1.888s] writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt
+[1.888s] writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt
+[1.889s] writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt
+[1.889s] writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt
+[1.891s] reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[1.892s] writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[1.892s] running build
+[1.892s] running build_py
+[1.892s] creating /home/james/turtlebot3_ws/build/follow_waypoints/build
+[1.892s] creating /home/james/turtlebot3_ws/build/follow_waypoints/build/lib
+[1.893s] creating /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints
+[1.893s] copying follow_waypoints/__init__.py -> /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints
+[1.894s] copying follow_waypoints/follow_waypoints.py -> /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints
+[1.895s] running install
+[1.896s] running install_lib
+[1.896s] creating /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.897s] copying /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints/__init__.py -> /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.897s] copying /home/james/turtlebot3_ws/build/follow_waypoints/build/lib/follow_waypoints/follow_waypoints.py -> /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[1.897s] byte-compiling /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/__init__.py to __init__.cpython-310.pyc
+[1.897s] byte-compiling /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+[1.898s] running install_data
+[1.899s] copying resource/follow_waypoints -> /home/james/turtlebot3_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+[1.899s] copying package.xml -> /home/james/turtlebot3_ws/install/follow_waypoints/share/follow_waypoints
+[1.899s] running install_egg_info
+[1.900s] Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info
+[1.900s] running install_scripts
+[1.921s] writing list of installed files to '/home/james/turtlebot3_ws/build/follow_waypoints/install.log'
+[1.950s] Invoked command in '/home/james/turtlebot3_ws/src/follow_waypoints' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/james/turtlebot3_ws/build/follow_waypoints/build install --record /home/james/turtlebot3_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,29 @@
+[0.914s] Invoking command in '/home/james/turtlebot3_ws/build/custom_launch': PYTHONPATH=/home/james/turtlebot3_ws/build/custom_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/custom_launch/build --no-deps symlink_data
+[1.105s] running develop
+[1.106s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.106s]   warnings.warn(
+[1.148s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.148s]   warnings.warn(
+[1.148s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 11.4.1ubuntu1 is an invalid version and will not be supported in a future release
+[1.148s]   warnings.warn(
+[1.225s] running egg_info
+[1.226s] creating custom_launch.egg-info
+[1.226s] writing custom_launch.egg-info/PKG-INFO
+[1.226s] writing dependency_links to custom_launch.egg-info/dependency_links.txt
+[1.226s] writing entry points to custom_launch.egg-info/entry_points.txt
+[1.226s] writing requirements to custom_launch.egg-info/requires.txt
+[1.226s] writing top-level names to custom_launch.egg-info/top_level.txt
+[1.226s] writing manifest file 'custom_launch.egg-info/SOURCES.txt'
+[1.227s] reading manifest file 'custom_launch.egg-info/SOURCES.txt'
+[1.228s] writing manifest file 'custom_launch.egg-info/SOURCES.txt'
+[1.229s] running build_ext
+[1.229s] Creating /home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages/custom-launch.egg-link (link to .)
+[1.230s] 
+[1.230s] Installed /home/james/turtlebot3_ws/build/custom_launch
+[1.230s] running symlink_data
+[1.230s] creating /home/james/turtlebot3_ws/install/custom_launch/share/ament_index
+[1.230s] creating /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index
+[1.230s] creating /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index/packages
+[1.230s] symbolically linking /home/james/turtlebot3_ws/build/custom_launch/resource/custom_launch -> /home/james/turtlebot3_ws/install/custom_launch/share/ament_index/resource_index/packages
+[1.230s] symbolically linking /home/james/turtlebot3_ws/build/custom_launch/package.xml -> /home/james/turtlebot3_ws/install/custom_launch/share/custom_launch
+[1.252s] Invoked command in '/home/james/turtlebot3_ws/build/custom_launch' returned '0': PYTHONPATH=/home/james/turtlebot3_ws/build/custom_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/custom_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/custom_launch/build --no-deps symlink_data
