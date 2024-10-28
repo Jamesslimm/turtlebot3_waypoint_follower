@@ -1,0 +1,33 @@
+[0.510s] Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.722s] running develop
+[0.722s] /home/james/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.722s] !!
+[0.722s] 
+[0.722s]         ********************************************************************************
+[0.722s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.722s]         Instead, use pypa/build, pypa/installer or other
+[0.722s]         standards-based tools.
+[0.722s] 
+[0.722s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.722s]         ********************************************************************************
+[0.722s] 
+[0.722s] !!
+[0.723s]   easy_install.initialize_options(self)
+[0.856s] running egg_info
+[0.864s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.865s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.865s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.865s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.865s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.884s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.885s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.894s] running build_ext
+[0.894s] Creating /home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.895s] Installing turtlebot3_obstacle_detection script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] Installing turtlebot3_patrol_client script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] Installing turtlebot3_patrol_server script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] Installing turtlebot3_position_control script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.895s] 
+[0.895s] Installed /home/james/turtlebot3_ws/build/turtlebot3_example
+[0.895s] running symlink_data
+[0.915s] Invoked command in '/home/james/turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

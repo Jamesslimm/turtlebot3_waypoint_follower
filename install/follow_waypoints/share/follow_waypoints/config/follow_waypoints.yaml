@@ -1,9 +1,1 @@
-waypoint_follwer:
-  ros_parameters:
-    loop_rate: 20
-    stop_on_failure: false
-    waypoint_task_executor_plugin: "wait_at_waypoint"
-    wait_at_waypoint:
-      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
-      enabled: True
-      waypoint_pause_duration: 200
+/home/james/turtlebot3_ws/build/follow_waypoints/config/follow_waypoints.yaml

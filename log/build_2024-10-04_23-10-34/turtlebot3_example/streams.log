@@ -1,0 +1,28 @@
+[0.423s] Invoking command in '/home/james/turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data --force
+[0.591s] running develop
+[0.591s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.591s]   warnings.warn(
+[0.629s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[0.630s]   warnings.warn(
+[0.630s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 11.4.1ubuntu1 is an invalid version and will not be supported in a future release
+[0.630s]   warnings.warn(
+[0.706s] running egg_info
+[0.706s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.707s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.707s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.707s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.707s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.709s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.709s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.710s] running build_ext
+[0.710s] Creating /home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.711s] Installing turtlebot3_obstacle_detection script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.711s] Installing turtlebot3_patrol_client script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.711s] Installing turtlebot3_patrol_server script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.711s] Installing turtlebot3_position_control script to /home/james/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.711s] 
+[0.711s] Installed /home/james/turtlebot3_ws/build/turtlebot3_example
+[0.711s] running symlink_data
+[0.711s] symbolically linking /home/james/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/james/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.712s] symbolically linking /home/james/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/james/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[0.731s] Invoked command in '/home/james/turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/james/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/james/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/james/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data --force

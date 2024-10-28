@@ -1,4 +1,5 @@
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+/home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/assignment_world.launch.py
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
@@ -56,6 +57,7 @@
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/Space station.world
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/assignment.world
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+/home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/supermarket.world
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
 /home/james/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
